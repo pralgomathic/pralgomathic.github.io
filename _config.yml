@@ -82,27 +82,27 @@ analytics:
 author:
   name             : "Jumman Hossain"
   avatar           : "github_profile.jpg"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  bio              : "Working as Senior Software Engineer at BJIT Limited"
+  location         : "Dhaka, Bangladesh"
   employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  email            : "jummanhossain92@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         :  "https://www.facebook.com/pralgomathic/"
   foursquare       :
-  github           : "academicpages"
+  github           : "https://github.com/pralgomathic"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "https://www.instagram.com/pralgomathic/"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/pralgomathic/"
+  orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
