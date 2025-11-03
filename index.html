@@ -128,7 +128,7 @@
 <!--             <a href="">arXiv</a>
             <p></p> -->
             <p>
-              FiRL is a reinforcement learning framework for legged locomotion that models **direction-dependent energy and risk** using a Finsler metric (F(x,v)) and optimizes a **CVaR-based** objective for tail-risk robustness. We prove a CVaR–Finsler Bellman operator that is a (\gamma)-contraction and induces a quasi-metric value function, and develop an actor–critic algorithm under this anisotropic, risk-averse objective. On sloped MuJoCo locomotion tasks, FiRL learns **safer and more energy-efficient gaits** than risk-neutral baselines (e.g., (>35%) lower (CVaR_{0.1}) impact forces and (15%) lower energy on a (12^\circ) Hopper slope).
+            FiRL (Finslerian Reinforcement Learning) is a risk-sensitive RL framework for legged locomotion that embeds **direction-dependent energy and failure risk** into a Finsler cost (F(x,v)) and optimizes a **CVaR tail-risk** objective. We prove that the associated CVaR–Finsler Bellman operator is a (\gamma)-contraction whose fixed point induces a **quasi-metric** over states, and instantiate it in an FiRL-AC actor–critic algorithm. On anisotropic MuJoCo terrains (e.g., 12° slopes and lateral disturbances), FiRL learns **safer, more energy-efficient gaits** than risk-neutral baselines, reducing worst-case impact forces by over 35% and energy use by about 15% while improving success rates.
             </p>
           </td>
         </tr>
