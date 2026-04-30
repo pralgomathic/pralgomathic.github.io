@@ -50,6 +50,10 @@
                 <heading style="text-decoration:underline;">News</heading>
                 <ul>
 
+                  <li>2026.04: Paper accepted at <em><span style='color:green;'>ICML 2026</span></em>!<br>
+                    <a href="">"Learning Anisotropic Value Geometry with Finsler Reinforcement Learning"</a>
+                  </li>
+
                   <li>2026.04: Paper accepted at <em><span style='color:green;'>ICCCN 2026</span></em>!<br>
                     <a href="https://pralgomathic.github.io/sern.multi-agent/">"SERN: Bandwidth-Adaptive Cross-Reality Synchronization for Simulation-Enhanced Robot Navigation"</a>
                   </li>
@@ -100,6 +104,46 @@
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+                      <tr onmouseout="paper2_stop()" onmouseover="paper2_start()" bgcolor="#c3e3e3">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='paper2_image'>
+                <img src='images/Firl_intro.png' width="100%">
+              </div>
+              <img src='images/Firl_overview.png' width="100%">
+            </div>
+            <script type="text/javascript">
+              function paper2_start() {
+                document.getElementById('paper2_image').style.opacity = "1";
+              }
+        
+              function paper2_stop() {
+                document.getElementById('paper2_image').style.opacity = "0";
+              }
+              paper2_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://openreview.net/pdf?id=uTdZtehD5e">
+              <span class="papertitle">Learning Anisotropic Value Geometry with Finsler Reinforcement Learning</span>
+            </a>
+           
+            <br>
+            <strong>Jumman Hossain</strong>, Nirmalya Roy
+            <br>
+            
+            <em>ICML 2026 </em> <br>
+            <a href="https://pralgomathic.github.io/firl/">Project Page</a> /
+<!--             <a href="">arXiv</a> -->
+            <p></p>
+            <p>
+              This paper introduces a Finslerian reinforcement learning framework for risk-aware locomotion in environments with asymmetric and anisotropic traversal costs. Instead of treating the cost between two states as a symmetric distance, FiRL models motion using a direction-dependent geometry, where the effort of moving through the environment depends on both the current state and the direction of travel. This is captured through a Finsler-style cost function F(s,s'), enabling the learned policy to represent behaviors such as uphill versus downhill traversal, terrain-dependent instability, and direction-sensitive locomotion risk. We further incorporate tail-risk sensitivity so that the policy does not optimize only for average performance, but also accounts for rare, high-cost failures that are critical in real-world robot deployment.
+            </p>
+          </td>
+        </tr>
+            
 
           <tr onmouseout="paper2_stop()" onmouseover="paper2_start()" bgcolor="#c3e3e3">
           <td style="padding:20px;width:25%;vertical-align:middle">
